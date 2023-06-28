@@ -7,6 +7,7 @@
     <list default="true" id="b62c905b-a560-49d6-b345-5a10644a45b3" name="Changes" comment="Update.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/TodoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/TodoList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/CODE/lista-zadan",
+    "last_opened_file_path": "D:/CODE/lista_zadan",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -66,21 +67,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TodoListTest.testEmptyTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TodoListTest.testAddTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lista-zadan" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TodoListTest" />
-      <option name="METHOD_NAME" value="testEmptyTask" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TodoListTest.testIncorect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lista-zadan" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TodoListTest" />
-      <option name="METHOD_NAME" value="testIncorect" />
+      <option name="METHOD_NAME" value="testAddTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,13 +87,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TodoListTest.testRemoveTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lista-zadan" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TodoListTest" />
+      <option name="METHOD_NAME" value="testRemoveTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TodoListTest" />
+        <item itemvalue="JUnit.TodoListTest.testAddTask" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TodoListTest.testRemoveTask" />
         <item itemvalue="JUnit.TodoListTest.testRemoveNonExistingTask" />
-        <item itemvalue="JUnit.TodoListTest.testEmptyTask" />
-        <item itemvalue="JUnit.TodoListTest.testIncorect" />
       </list>
     </recent_temporary>
   </component>
@@ -115,7 +116,11 @@
       <option name="presentableId" value="Default" />
       <updated>1687270178992</updated>
       <workItem from="1687270180069" duration="9194000" />
-      <workItem from="1687341272016" duration="523000" />
+      <workItem from="1687341272016" duration="1599000" />
+      <workItem from="1687369709726" duration="4520000" />
+      <workItem from="1687424612657" duration="4503000" />
+      <workItem from="1687779063612" duration="1776000" />
+      <workItem from="1687940796321" duration="7898000" />
     </task>
     <task id="LOCAL-00001" summary="Update.">
       <created>1687282742011</created>
@@ -131,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687282796013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update.">
+      <created>1687342097293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687342097293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
